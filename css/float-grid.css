@@ -1,0 +1,30 @@
+/*****************
+*****************/
+/*********
+Universal Styles
+*********/
+ 
+* {
+	box-sizing: border-box;
+}
+
+/*****************
+Default Grid Settings
+*****************/
+
+.row {
+	max-width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
+}
+
+.row::before, 
+.row::after {
+	display: table;
+	content: '';
+}
+
+.row::after {
+	clear: both;
+}
