@@ -16,7 +16,7 @@ h2 {
 	margin-bottom: 5px; 
 }
 
-h2 > p {
+.header > p {
 	margin-bottom: 20px;
 }
 
@@ -39,7 +39,7 @@ img {
 
 .description {
 	margin: 20px;
-	height: 75px;
+	height: 63px;
 }
 
 h3, p {
