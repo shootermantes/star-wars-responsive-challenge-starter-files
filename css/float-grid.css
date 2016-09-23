@@ -12,6 +12,7 @@ Universal Styles
 Default Grid Settings
 *****************/
 
+/*Defaults for div row grid*/
 .row {
 	max-width: 1000px;
 	padding-left: 20px;
@@ -27,4 +28,18 @@ Default Grid Settings
 
 .row::after {
 	clear: both;
+}
+
+/*Defaults for columns*/
+
+.col-3, .col-4, .col-6, .col-12 {
+	float: left;
+	padding-right: 1.04166666%;
+	padding-left: 1.04166666%;
+}
+
+/*Mobile defaults*/
+
+.col-3, .col-4, .col-6, .col-12 {
+	width: 100%;
 }
