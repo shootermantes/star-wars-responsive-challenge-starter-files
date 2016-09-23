@@ -4,12 +4,26 @@ Header elements
 
 header {
 	background-color: orange;
+	margin-bottom: 20px;
 }
 
 h1 {
 	font-family: 'Roboto', sans-serif;
 }
 
+/************************
+Main
+************************/
+
+/*character boxes*/
+.box {
+	border: 1px solid lightgray;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
 
 /************************
 ************************/
